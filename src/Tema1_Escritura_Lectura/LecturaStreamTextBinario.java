@@ -15,7 +15,12 @@ public class LecturaStreamTextBinario {
         FileInputStream fis = null;
         try{
             fis = new FileInputStream("hola.txt");
-            while((byteLeido = fis.read()) != -1){
+            while((byteLeido = fis.read()) != -1){ 
+            /**
+             * Decimal a Hexadecimal
+             * Procesar el byteLeido y en funcion del numero, imprimir una de las letras Hezadecimal.
+             */
+
                 System.out.println(byteLeido);
             }
         }
